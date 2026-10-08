@@ -1,34 +1,100 @@
-<doctype html!>
-    <html>
-        <head>
-            <title>tes web</title>
-        </head>
-        <body bgcolor="1580C3">
-            <header>
-            <h1 align="center"><font color="white"><b>TEKNIK KOMPUTER DAN JARINGAN</b></font></h1>
-            </header>
-        <hr style="width:100%; border: 2px solid #ffffff;">
-        <h1 align="center"><font color="white">Selamat Datang</font></h1>
-        <hr style="width: 200px; border: 2px solid snowwhite;">
-        </body>
-            <p><i>hallo semuanyaa!!! kenalin nama aku Sekar Arum Ratna Sari</i></p>
-        </body>
-        <h4><u>Kelebihan Saya:</u></h3>
-        <ol>
-            <li>Displin</li>
-            <li>Mudah bekerja sama</li>
-            <li>Tidak mudah menyerah</li>
-        </ol>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="header-container">
+                <div class="brand"><h1>XI TKJ 2</h1></div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#AboutMe">About Me</a></li>
+                        <li><a href="#Skill">Skill</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                        <li><a href="#Galery">Galery</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        </main>
+        <center><h1 style="color: rgb(224, 35, 196); ">Selamat Datang di My Portfolio</h1>
+        <p>Hallo, ini halaman portofolio saya. Ada beberapa hal yang ingin sampaikan ke Anda semuanya</p></center>
+        <section id="About Me" class="about-section">
+            <div class="table-container">
+            <h3>A. Identitas</h3>
+        <table border="1" cellpadding="5" cellspacing="0">
+             <tr>
+                <th>Foto</th>
+                <td><img src="/sekararum/picture.jpeg" width="100" height="100"></td>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <td>Sekar Arum Ratna Sari</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Garum, Blitar</td>
+            </tr>
+            <tr><th>No. HP</th>
+            <td><a href="https://wa.me/085089420248" target="_blank">Chat Me</a></td></tr>
+            <tr>
+                <th>Pelajar</th>
+                <td>Teknik Komputer dan Jaringan</td>
+            </tr>
+            <tr>
+                <th>Pengalaman</th>
+                <td><ol>
+                    <li></li>
+                    <li></li>
+                </ol></td>
+            </tr>
+            <tr>
+                <th>Trainer</th>
+                <td><ul><li>Google Master Trainer</li>
+                <li>Trainer Mikrotik</li></ul></td>
+            </tr>
+        </table>
         <br>
-        <p>Foto Saya</p>
-        <img src="foto1.jpg.jpeg" width="150" height="200">
-        <p>Video Saya</p>
-        <p>
-        <center>
-            <video controls height="200"></video>
-                <source src="video1.mp4" type="video/mp4">"
-            </video>
-        </center>
-        </p>
-        </head>
-    </html>
+        <section id="kenal" class="form-section>"
+            <h3>B. Saling Berkenalan</h3>
+            <div class="form-box">
+                <form>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="gender">Jenis Kelamin:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Laki-laki</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Perempuan</label><br><br>
+                    <label for="tempat">Tempat Lahir:</label>
+                    <select id="tempat" name="tempat">
+                        <option value="">Pilih </option>
+                        <option value="blitar">Blitar</option>
+                        <option value="malang">Malang</option>
+                        <option value="surabaya">Surabaya</option>
+                        <option value="jakarta">Jakarta</option>
+                    </select><br></br>
+                    <label for ="criteria">Ciri khas:</label>
+                    <input type="checkbox" id="friendly" name="criteria" value="friendly">
+                    <label for="friendly">Ramah</label>
+                    <input type="checkbox" id="friendly" name="criteria" value="friendly">
+                    <label for="friendly">Cakep</label><br><br>
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="continue">
+       
+        </form>
+        <footer>
+            <hr style="width: 100%; border: 2px solid rgb(235, 235, 239);">
+            <p>&copy; 2026 Aning Tias. All rights reserved.</p>
+            <a href="https://www.instagram.com/pageaning.id" target="_blank">
+                <img src="IG.jpg" width="10" height="10">
+            </a>
+        </footer>
+    </body>
+</html>

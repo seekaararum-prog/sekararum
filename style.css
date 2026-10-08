@@ -1,0 +1,65 @@
+ody {
+    background-color: lightskyblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main-header {
+    width: 100%;
+    background-color:aliceblue;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.brand h1 {
+    color: darkblue;
+    margin: 0;
+    font-size: 28px;
+}
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.main-nav li {
+    margin: 0;
+}
+.main-nav a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0,3s ease;
+}
+.main-nav a:hover {
+    background-color: lightslategray;
+    color: white;
+    transform: translateY(-5px);  
+}
+.main-nav a.active {
+    background-color: green;
+    color: white;
+    box-shadow: 0 5px;
+}
+.form-container {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px 20px;
+    align-items: center;
+}
+.form-label {
+    font-weight: bold;
+}
